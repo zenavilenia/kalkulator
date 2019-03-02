@@ -1,0 +1,39 @@
+.container {
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+}
+
+.column {
+  display: flex;
+}
+
+.textInput {
+  padding: 12px;
+  padding-top: 20px;
+  font-size: 20px;
+  height: 30px;
+  width: auto;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+
+.btnNumber {
+  width: 50px;
+  height: 50px;
+}
+
+.action {
+  background-color: #dee3ea;
+}
+
+.action2 {
+  background-color: #f7843d;
+  font-size: 16px;
+}
+
+.num {
+  background-color: #52565b;
+  color: white;
+}

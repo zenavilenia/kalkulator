@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <div>
+        <div class="textInput">0</div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row"> <button class="btnNumber action" style="width: 150px" onclick="clearNumber()">AC</button> </div>
+      <div class="row"> <button class="btnNumber action2" onclick="addNumber('/')">/</button> </div>
+    </div>
+    <div class="column">
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(7)">7</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(8)">8</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(9)">9</button> </div>
+      <div class="row"> <button class="btnNumber action2" onclick="addNumber('*')">x</button> </div>
+    </div>
+    <div class="column">
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(4)">4</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(5)">5</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(6)">6</button> </div>
+      <div class="row"> <button class="btnNumber action2" onclick="addNumber('-')">-</button> </div>
+    </div>
+    <div class="column">
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(1)">1</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(2)">2</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber(3)">3</button> </div>
+      <div class="row"> <button class="btnNumber action2" onclick="addNumber('+')">+</button> </div>
+    </div>
+    <div class="column">
+      <div class="row"> <button class="btnNumber num" style="width: 100px" onclick="addNumber(0)">0</button> </div>
+      <div class="row"> <button class="btnNumber num" onclick="addNumber('.')">,</button> </div>
+      <div class="row"> <button class="btnNumber action2" onclick="sumNumber()">=</button> </div>
+    </div>
+  </div>
+  <!-- script -->
+  <script src="script.js"></script>
+</body>
+</html>
