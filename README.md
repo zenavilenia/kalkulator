@@ -1,3 +1,3 @@
 # kalkulator
 
-link -> https://zenavilenia.github.io/kalkulator/index.html
+link -> https://zenavilenia.github.io/kalkulator/
